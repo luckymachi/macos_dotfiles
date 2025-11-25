@@ -51,6 +51,7 @@ lualine.setup({
 		icons_enabled = true,
 		component_separators = { left = "", right = "" },
 		section_separators = { left = "", right = "" },
+		always_divide_middle = true,
 	},
 	sections = {
 		-- Or, added to the default lualine_b config from here: https://github.com/nvim-lualine/lualine.nvim?tab=readme-ov-file#default-configuration
