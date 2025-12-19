@@ -38,6 +38,7 @@ require("neodev").setup()
 require("lspconfig").clangd.setup({})
 
 require("lspconfig").gopls.setup({
+	cmd = { "gopls" },
 	on_attach = on_attach,
 	capabilities = {
 		workspace = {
@@ -47,7 +48,6 @@ require("lspconfig").gopls.setup({
 			workspaceFolders = true,
 		},
 	},
-	cmd = { "gopls" },
 	filetypes = { "go", "gomod", "gowork", "gotmpl" },
 	root_dir = util.root_pattern("go.work", "go.mod", ".git"),
 	settings = {

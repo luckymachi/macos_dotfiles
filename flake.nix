@@ -87,6 +87,7 @@
           # Typst
           typst
           tinymist
+          typstyle
 
           # Go
           go

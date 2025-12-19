@@ -216,6 +216,8 @@ require("lazy").setup({
 			styles = {
 				floats = "transparent",
 				sidebars = "transparent",
+				comments = { italic = false },
+				keywords = { italic = false },
 			},
 		},
 	},

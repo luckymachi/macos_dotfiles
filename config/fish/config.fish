@@ -40,3 +40,7 @@ set -x ZELLIJ_AUTO_ATTACH true
 if status is-interactive
     eval (zellij setup --generate-auto-start fish | string collect)
 end
+
+set -x DYLD_LIBRARY_PATH /usr/local/oracle $DYLD_LIBRARY_PATH
+set -x OCI_LIB_DIR /usr/local/oracle
+set -x OCI_INC_DIR /usr/local/oracle/sdk/include
