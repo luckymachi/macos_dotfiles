@@ -147,6 +147,9 @@
           nixpkgs-lint
           nixpkgs-vet
           direnv
+
+          # Radicle
+          radicle-node
         ];
       };
     });
